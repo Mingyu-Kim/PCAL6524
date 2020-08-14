@@ -13,9 +13,9 @@
 
 
 PCAL6524 io;  //Address Pin is tied to ground (DEFAULT)
-//PCAL6524(PCAL6524_ADDRESS_0) io; //Adress Pin is Tied to SCL
-//PCAL6524(PCAL6524_ADDRESS_1) io; //Adress Pin is Tied to SDA
-//PCAL6524(PCAL6524_ADDRESS_3) io; //Adress Pin is Tied to VDD
+//PCAL6524 io(PCAL6524_ADDRESS_0); //Adress Pin is Tied to SCL
+//PCAL6524 io(PCAL6524_ADDRESS_1); //Adress Pin is Tied to SDA
+//PCAL6524 io(PCAL6524_ADDRESS_3); //Adress Pin is Tied to VDD
 
 /* PCAL6524 24 IO pins are brocken into 3 Banks, Pin IDs coresponed to Pin IDs from NXP data sheets
  *    Bank 0       Bank 1     Bank 2
